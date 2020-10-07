@@ -32,6 +32,8 @@ class MyHomePage extends StatelessWidget {
   ];
   // String titleInput;
   // String amountInput;
+  final titleController = TextEditingController();
+  final amountController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
