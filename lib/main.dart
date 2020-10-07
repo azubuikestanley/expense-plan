@@ -23,11 +23,11 @@ class MyHomePage extends StatelessWidget {
   final amountController = TextEditingController();
 
   void startAddNewTransaction(BuildContext ctx) {
-    showModalBottomSheet(
-        context: ctx,
-        builder: (_) {
-          // return NewTransaction(addTx);
-        });
+    // showModalBottomSheet(
+        // context: ctx,
+        // builder: (_) {
+        //   return NewTransaction(addTx);
+        // });
   }
 
   @override
